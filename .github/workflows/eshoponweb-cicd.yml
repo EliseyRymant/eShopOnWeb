@@ -6,7 +6,7 @@ on: [push, workflow_dispatch]
 #Environment variables https://docs.github.com/en/actions/learn-github-actions/environment-variables
 env:
   RESOURCE-GROUP: gh-actions-rymant
-  LOCATION: westus
+  LOCATION: westeurope
   TEMPLATE-FILE: infra/webapp.bicep
   SUBSCRIPTION-ID: c6a76d9c-0f67-4a42-b2a1-3defb05f2aae
   WEBAPP-NAME: eshoponweb-webapp-rymant044
